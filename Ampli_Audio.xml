@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/cyprienh/Documents/1 - INSA/3A/BE Électronique/Ampli_Audio/Ampli_Audio.kicad_sch</source>
+    <date>2022 April 06, Wednesday 14:02:59</date>
+    <tool>Eeschema (6.0.2-0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Amplificateur Audio BE Électronique</title>
+        <company>INSA Toulouse</company>
+        <rev>1.0</rev>
+        <date>2022-03-08</date>
+        <source>Ampli_Audio.kicad_sch</source>
+        <comment number="1" value="Enseignants: Thierry Rocacher, Patrick Tounsi"/>
+        <comment number="2" value="Par Cyprien Heusse"/>
+        <comment number="3" value="Réalisé dans le cadre du BE Électronique de 3IMACS"/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>47u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b752bda3-13c7-4a57-9e66-fac5ed0b3f84</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>C</value>
+      <footprint>CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8138a812-ad1f-4669-b46d-d687671a4278</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7e366d80-6712-40b4-ad25-6f0ee9e94346</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>881151d5-15ed-4355-a69f-6abefa3c2028</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100n</value>
+      <footprint>CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1409a2a3-4f15-4c7d-a042-5fc36dcf732d</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>10u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D8.0mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bfcbcca-b58d-4929-876d-00863865e078</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100n</value>
+      <footprint>CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e1309e7-40cd-4875-a50b-909fb696e690</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>470u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>69d3cba1-3708-4aa2-817b-6cc6464f3ce1</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>100n</value>
+      <footprint>CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d97b9dbf-88ee-465c-9f97-babb7d5604e4</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>470u</value>
+      <footprint>CmpAmpliAudioTR:CP_Radial_D12.5mm_P5.00mm</footprint>
+      <libsource lib="Device" part="C_Polarized" description="Polarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0e58bc6-3998-4e04-a53b-c756ac181787</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100n</value>
+      <footprint>CmpAmpliAudioTR:C_Rect_L7.2mm_W3.5mm_P5.00mm_FKS2_FKP2_MKS2_MKP2</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>803fb112-96a1-48b7-8cf7-dea7a38b7ae6</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>1N4148</value>
+      <footprint>CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <datasheet>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</datasheet>
+      <libsource lib="Diode" part="1N4148" description="100V 0.15A standard switching diode, DO-35"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3f084415-6dba-4300-bbcf-395defe1049a</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Zener</value>
+      <footprint>CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener" description="Zener diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ac75cf8-69f9-4ec8-9d43-7b8e6e5eabfe</tstamps>
+    </comp>
+    <comp ref="Dz1">
+      <value>BZX55C5V1</value>
+      <footprint>CmpAmpliAudioTR:D_DO-35_SOD27_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="D_Zener_Filled" description="Zener diode, filled shape"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>422938f0-c42f-4637-ad9a-bedde43edf63</tstamps>
+    </comp>
+    <comp ref="HS1">
+      <value>Heatsink</value>
+      <footprint>CmpAmpliAudioTR:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm</footprint>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9111d637-58c6-40e6-ad60-d176ee7daaa6</tstamps>
+    </comp>
+    <comp ref="HS2">
+      <value>Heatsink</value>
+      <footprint>CmpAmpliAudioTR:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm</footprint>
+      <libsource lib="Mechanical" part="Heatsink" description="Heatsink"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af9bf7bb-4a6d-4d1a-9549-875e85168d6c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Conn_01x02</value>
+      <footprint>CmpAmpliAudioTR:PhoenixContact_MSTBVA_2,5_2-G-5,08_1x02_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77650378-5e4e-41f1-95c6-4793e60531be</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Conn_01x03</value>
+      <footprint>CmpAmpliAudioTR:PhoenixContact_MSTBVA_2,5_3-G-5,08_1x03_P5.08mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b696f63-84a8-4a86-8543-f499e54440d8</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>2N2907</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1544bd86-3417-44f1-a543-3f1484cff4b7</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>2N2907</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b09c35d-4965-483f-861c-46f78ce2a4fd</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>2N2907</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8adec25a-9105-45a0-bb99-cd464c76cfd2</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N2222</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27cbccf7-2182-4445-a907-9113c68504d4</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>2N2222</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c018a7c6-11de-477a-b4d3-595f1baffa15</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>2N2907</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5c686a2-9f60-4eea-9c19-6541ce86a0fc</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>2N2907</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_PNP_EBC" description="PNP transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d129ce83-5a72-4eff-a583-efb1b379c8e1</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>BD139</value>
+      <footprint>CmpAmpliAudioTR:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0480a526-51c3-4e6c-8060-8595b2938306</tstamps>
+    </comp>
+    <comp ref="Q9">
+      <value>BD139</value>
+      <footprint>CmpAmpliAudioTR:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_ECB" description="NPN transistor, emitter/collector/base"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8924b8d0-ec20-480e-9e9b-777aae3c9d2e</tstamps>
+    </comp>
+    <comp ref="Q10">
+      <value>TIP32</value>
+      <footprint>CmpAmpliAudioTR:TO-220-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_BCE" description="PNP transistor, base/collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>494e22ea-f2a0-4baa-b91e-4b952e28e771</tstamps>
+    </comp>
+    <comp ref="Q11">
+      <value>BD138</value>
+      <footprint>CmpAmpliAudioTR:TO-126-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_PNP_ECB" description="PNP transistor, emitter/collector/base"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>761339d8-d526-4317-8e37-6a6641c36d72</tstamps>
+    </comp>
+    <comp ref="Q12">
+      <value>TIP31</value>
+      <footprint>CmpAmpliAudioTR:TO-220-3_Vertical</footprint>
+      <libsource lib="Device" part="Q_NPN_BCE" description="NPN transistor, base/collector/emitter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa7f9d2d-4299-4971-8e0e-afd73f5faa2b</tstamps>
+    </comp>
+    <comp ref="Q13">
+      <value>2N2222</value>
+      <footprint>CmpAmpliAudioTR:TO-18-3</footprint>
+      <libsource lib="Device" part="Q_NPN_EBC" description="NPN transistor, emitter/base/collector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef4ca0df-4361-41a6-b932-9042286287ac</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4f9b3a3a-3886-4ebe-b81c-16ff1b478e45</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9e74232-5cb6-42ec-9b3e-69cb047b360c</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a52c671a-fa36-4db9-85ce-ebbf9d5066d9</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4acc1f7e-cdae-47a0-a760-32e523698511</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e92fc636-6f09-4bcf-996b-40649153e556</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>01ef2496-5559-4a7a-9c73-4800a2cc05c6</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98824cda-6a3e-4eb0-8a7b-c2176c9f3173</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3e51694-b1e5-4aa3-84dd-8af2a03a6bd6</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af2d7432-27c1-4358-a4c9-4d2dcf52a6e2</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33afaf77-8396-424b-803e-b508da55a72e</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b882204c-ec43-427d-a409-211e297c0dcd</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c30cd267-4bb5-4503-aeba-6349cb210831</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a118455a-891c-41cc-b418-beb396410d5e</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27b0dc39-181d-4f35-ab5f-a1712e7b8760</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a38dd5c8-07fd-48c9-a981-784a5fc4f1d1</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>R</value>
+      <footprint>CmpAmpliAudioTR:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad67545e-b1f5-44b6-90c1-5ec7b1dafad5</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>R_POT</value>
+      <footprint>CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ec1e6f2-cb34-40f1-ad7b-98189ce7c827</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>R_POT</value>
+      <footprint>CmpAmpliAudioTR:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5f72fc0-39c7-41aa-a3d9-34ddb2e446be</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Relay_1CT</value>
+      <footprint>CmpAmpliAudioTR:Relais_112LMH2</footprint>
+      <libsource lib="CmpAmpliAudioTR" part="Relay_1CT" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8523b99-522b-44c7-a5af-9ab9ecc4c598</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Jack_Mono</value>
+      <footprint>CmpAmpliAudioTR:Jack_35RAPC2AV</footprint>
+      <libsource lib="CmpAmpliAudioTR" part="Jack_Mono" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Ampli_Audio.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e17fc22-e279-4742-81e3-1993a926b45c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="CmpAmpliAudioTR" part="Jack_Mono">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Jack_Mono</field>
+      </fields>
+      <pins>
+        <pin num="G" name="" type="passive"/>
+        <pin num="T" name="" type="passive"/>
+        <pin num="TN" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="CmpAmpliAudioTR" part="Relay_1CT">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Relay_1CT</field>
+      </fields>
+      <pins>
+        <pin num="b1" name="" type="passive"/>
+        <pin num="b2" name="" type="passive"/>
+        <pin num="c1" name="" type="passive"/>
+        <pin num="c2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x03">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized">
+      <description>Polarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener">
+      <description>Zener diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Zener_Filled">
+      <description>Zener diode, filled shape</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Zener_Filled</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_BCE">
+      <description>NPN transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_EBC">
+      <description>NPN transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_EBC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_NPN_ECB">
+      <description>NPN transistor, emitter/collector/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_NPN_ECB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_BCE">
+      <description>PNP transistor, base/collector/emitter</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_BCE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="E" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_EBC">
+      <description>PNP transistor, emitter/base/collector</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_EBC</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Q_PNP_ECB">
+      <description>PNP transistor, emitter/collector/base</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">Q_PNP_ECB</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="E" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1N4148">
+      <description>100V 0.15A standard switching diode, DO-35</description>
+      <docs>https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</docs>
+      <footprints>
+        <fp>D*DO?35*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1N4148</field>
+        <field name="Footprint">Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal</field>
+        <field name="Datasheet">https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="Heatsink">
+      <description>Heatsink</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Heatsink_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">HS</field>
+        <field name="Value">Heatsink</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="CmpAmpliAudioTR">
+      <uri>/Users/cyprienh/Documents/1 - INSA/3A/BE Électronique/Ampli_Audio/MaLib_Ampli_2022/CmpAmpliAudioTR.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Diode.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>/Applications/KiCad/KiCad.app/Contents/SharedSupport/symbols//Mechanical.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+12V">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Dz1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Q10" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="b2" pintype="passive"/>
+    </net>
+    <net code="2" name="-12V">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q12" pin="3" pinfunction="E" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="Q13" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="G" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="U2" pin="T" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="B" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="Q11" pin="3" pinfunction="B" pintype="input"/>
+      <node ref="Q4" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C3-Pad1)">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q13" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="U1" pin="b1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(D2-Pad2)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q13" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(Dz1-Pad2)">
+      <node ref="Dz1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="c2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(Q2-Pad2)">
+      <node ref="Q2" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(Q2-Pad3)">
+      <node ref="Q2" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net-(Q3-Pad1)">
+      <node ref="Q3" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q4-Pad1)">
+      <node ref="Q4" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Q5-Pad1)">
+      <node ref="Q5" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net-(Q6-Pad1)">
+      <node ref="Q6" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="Net-(Q6-Pad2)">
+      <node ref="Q6" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="Q7" pin="2" pinfunction="B" pintype="input"/>
+      <node ref="Q7" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(Q6-Pad3)">
+      <node ref="Q6" pin="3" pinfunction="C" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="22" name="Net-(Q7-Pad1)">
+      <node ref="Q7" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="23" name="Net-(Q8-Pad3)">
+      <node ref="Q8" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="24" name="Net-(Q10-Pad1)">
+      <node ref="Q10" pin="1" pinfunction="B" pintype="input"/>
+      <node ref="Q9" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="25" name="Net-(Q10-Pad2)">
+      <node ref="Q10" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q9" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="Net-(Q11-Pad1)">
+      <node ref="Q11" pin="1" pinfunction="E" pintype="passive"/>
+      <node ref="Q12" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net-(Q11-Pad2)">
+      <node ref="Q11" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="Q12" pin="1" pinfunction="B" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(R8-Pad1)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="c1" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(U2-PadTN)">
+      <node ref="U2" pin="TN" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>
